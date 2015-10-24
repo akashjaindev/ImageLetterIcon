@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="MaterialLetterIcon">
+    <attr name="shape_color" format="color"/>
+    <attr name="shape_type" format="enum">
+      <enum name="normal" value="0"/>
+      <enum name="circle" value="1"/>
+      <enum name="rect" value="2"/>
+    </attr>
+    <attr name="letter" format="string"/>
+    <attr name="letter_color" format="color"/>
+    <attr name="letter_size" format="integer"/>
+    <attr name="letters_number" format="integer"/>
+    <attr name="initials" format="boolean"/>
+    <attr name="initials_number" format="integer"/>
+  </declare-styleable>
+  <!-- ImageView Attributes -->
+  <declare-styleable name="RoundedImageView">
+    <attr name="corner_radius" format="dimension" />
+    <attr name="border_width" format="dimension" />
+    <attr name="border_color" format="color" />
+    <attr name="round_background" format="boolean" />
+    <attr name="is_oval" format="boolean" />
+    <attr name="android:scaleType" />
+  </declare-styleable>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:layout_margin="10dp"
+    android:padding="10dp">
+
+    <com.imageletter.MaterialLetterIcon
+        xmlns:image="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/icon"
+        android:layout_width="@dimen/list_item_avatar_size"
+        android:layout_height="@dimen/list_item_avatar_size"
+        android:layout_marginRight="16dp"
+        image:border_color="@android:color/black"
+        image:border_width="1dp"
+        image:is_oval="true"
+        image:shape_type="normal"/>
+
+    <TextView
+        android:id="@android:id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+</LinearLayout>
