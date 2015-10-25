@@ -8,6 +8,11 @@ Material letter icon with circle background. Also supports for image for user co
 Gradle
 -------------------------
 
+```
+dependencies {
+    compile 'com.imageletter:ImageLetterIcon:1.0'
+}
+```
 
 Usage
 -----
