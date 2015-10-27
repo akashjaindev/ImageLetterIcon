@@ -14,7 +14,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.imageletter.MaterialLetterIcon;
+import com.github.akashandroid90.imageletter.MaterialLetterIcon;
 
 import java.util.Arrays;
 import java.util.List;
