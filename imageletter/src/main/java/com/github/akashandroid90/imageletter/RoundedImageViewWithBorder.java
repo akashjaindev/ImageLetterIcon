@@ -1,4 +1,4 @@
-package com.imageletter;
+package com.github.akashandroid90.imageletter;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -91,24 +91,12 @@ public class RoundedImageViewWithBorder extends ImageView {
         invalidate();
     }
 
-    /**
-     * Return the current scale type in use by this ImageView.
-     *
-     * @attr ref android.R.styleable#ImageView_scaleType
-     * @see ScaleType
-     */
     @Override
     public ScaleType getScaleType() {
         return mScaleType;
     }
 
-    /**
-     * Controls how the image should be resized or moved to match the size
-     * of this ImageView.
-     *
-     * @param scaleType The desired scaling mode.
-     * @attr ref android.R.styleable#ImageView_scaleType
-     */
+
     @Override
     public void setScaleType(ScaleType scaleType) {
         if (scaleType == null) {

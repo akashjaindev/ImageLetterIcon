@@ -1,4 +1,4 @@
-package com.imageletter;
+package com.github.akashandroid90.imageletter;
 
 import android.content.res.ColorStateList;
 import android.graphics.Bitmap;
