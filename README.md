@@ -10,7 +10,7 @@ Gradle
 
 ```
 dependencies {
-    compile 'com.imageletter:ImageLetterIcon:1.0'
+    compile 'com.github.akashandroid90:imageletter:1.1'
 }
 ```
 
