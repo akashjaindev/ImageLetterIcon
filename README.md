@@ -1,6 +1,8 @@
 # ImageLetterIcon
 Material letter icon with circle background. Also supports for image for user contact.
 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ImageLetterIcon-green.svg?style=true)](https://android-arsenal.com/details/1/2762)
+
 ![Square Initials](images/one.png)
 ![Square Initials](images/two.png)
 ![Alternate Initial Square Image](images/three.png)
