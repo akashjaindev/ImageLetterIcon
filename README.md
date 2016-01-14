@@ -1,6 +1,8 @@
 # ImageLetterIcon
 Material letter icon with circle background. Also supports for image for user contact.
 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ImageLetterIcon-green.svg?style=true)](https://android-arsenal.com/details/1/2762)
+
 ![Square Initials](images/one.png)
 ![Square Initials](images/two.png)
 ![Alternate Initial Square Image](images/three.png)
@@ -9,9 +11,11 @@ Gradle
 -------------------------
 
 ```
+
 dependencies {
-    compile 'com.imageletter:ImageLetterIcon:1.0'
+    compile 'com.github.akashandroid90:imageletter:1.2'
 }
+
 ```
 
 Usage
@@ -68,7 +72,7 @@ License
 -----------
 
 ```
-Copyright 2015 Ivan Baranov
+Copyright 2015 Akash Jain
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
