@@ -4,6 +4,8 @@ Material letter icon with circle background. Also supports for image for user co
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ImageLetterIcon-green.svg?style=true)](https://android-arsenal.com/details/1/2762)
 
  [ ![Download](https://api.bintray.com/packages/akashandroid90/maven/image-letter-icon/images/download.svg) ](https://bintray.com/akashandroid90/maven/image-letter-icon/_latestVersion)
+ 
+ <a href='https://bintray.com/akashandroid90/maven/image-letter-icon/view?source=watch' alt='Get automatic notifications about new "image-letter-icon" versions'><img src='https://www.bintray.com/docs/images/bintray_badge_color.png'></a>
 
 ![Square Initials](images/one.png)
 ![Square Initials](images/two.png)
