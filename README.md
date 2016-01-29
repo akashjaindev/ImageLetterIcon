@@ -3,6 +3,8 @@ Material letter icon with circle background. Also supports for image for user co
 
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ImageLetterIcon-green.svg?style=true)](https://android-arsenal.com/details/1/2762)
 
+ [ ![Download](https://api.bintray.com/packages/akashandroid90/maven/image-letter-icon/images/download.svg) ](https://bintray.com/akashandroid90/maven/image-letter-icon/_latestVersion)
+
 ![Square Initials](images/one.png)
 ![Square Initials](images/two.png)
 ![Alternate Initial Square Image](images/three.png)
