@@ -1,1 +1,1 @@
-include ':app', ':imageletter'
+include ':app'
