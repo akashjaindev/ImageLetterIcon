@@ -28,7 +28,7 @@ Usage
 Declare in XML (see xml attributes below for customization):
 
 ```xml
-<com.imageletter.MaterialLetterIcon
+<com.github.akashandroid90.imageletter.MaterialLetterIcon
     android:layout_width="@dimen/letter_icon_size"
     android:layout_height="@dimen/letter_icon_size" />
 ```
