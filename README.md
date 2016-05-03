@@ -17,10 +17,17 @@ Gradle
 ```
 
 dependencies {
-    compile 'com.github.akashandroid90:imageletter:1.3'
+    compile 'com.github.akashandroid90:imageletter:1.4'
 }
 
 ```
+
+ChangeLog
+-----
+
+bug fixes
+
+vector drawable support 
 
 Usage
 -----
