@@ -20,7 +20,7 @@ Gradle
 ```
 
 dependencies {
-    compile 'com.github.akashandroid90:imageletter:1.5'
+    compile 'com.github.akashandroid90:imageletter:1.6'
 }
 
 ```
