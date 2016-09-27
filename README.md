@@ -7,7 +7,9 @@ Material letter icon with circle background. Also supports for image for user co
  
  <a href='https://bintray.com/akashandroid90/maven/image-letter-icon/view?source=watch' alt='Get automatic notifications about new "image-letter-icon" versions'><img src='https://www.bintray.com/docs/images/bintray_badge_color.png'></a>
 
-Try out the sample application [on the Android Market][1].
+<a href="https://play.google.com/store/apps/details?id=com.imagelettericon" alt="Download from Google Play">
+  <img src="http://www.android.com/images/brand/android_app_on_play_large.png">
+</a>
 
 
 ![Square Initials](images/one.png)
@@ -100,5 +102,3 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ```
-
-[1]: https://play.google.com/store/apps/details?id=com.imagelettericon
