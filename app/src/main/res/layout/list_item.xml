@@ -4,24 +4,22 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:gravity="center_vertical"
-    android:layout_margin="10dp"
-    android:padding="10dp">
-
+    android:layout_margin="@dimen/_10sdp"
+    android:padding="@dimen/_10sdp">
     <com.github.akashandroid90.imageletter.MaterialLetterIcon
         xmlns:image="http://schemas.android.com/apk/res-auto"
         android:id="@+id/icon"
-        android:layout_width="@dimen/list_item_avatar_size"
-        android:layout_height="@dimen/list_item_avatar_size"
-        android:layout_marginRight="16dp"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginRight="@dimen/_16sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
         image:border_color="@android:color/black"
-        image:border_width="1dp"
-        image:is_oval="true"
-        image:shape_type="normal"/>
-
-    <TextView
+        image:border_width="@dimen/_1sdp"
+        image:srcCompat="@mipmap/ic_launcher"
+        image:is_oval="true"/>
+    <android.support.v7.widget.AppCompatTextView
         android:id="@android:id/text1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?attr/textAppearanceListItem" />
-
 </LinearLayout>

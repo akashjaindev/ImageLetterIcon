@@ -11,7 +11,6 @@
       android:title="@string/menu_countries"
       android:orderInCategory="100"
       app:showAsAction="never" />
-
     <item
         android:id="@+id/alternate_contacts"
         android:title="@string/menu_alternate_contacts"
@@ -22,4 +21,24 @@
         android:title="@string/menu_alternate_countries"
         android:orderInCategory="100"
         app:showAsAction="never" />
+  <item
+      android:id="@+id/play_store"
+      android:title="@string/menu_play_store"
+      android:orderInCategory="100"
+      app:showAsAction="never" />
+  <item
+      android:id="@+id/other_apps"
+      android:title="@string/menu_other_apps"
+      android:orderInCategory="100"
+      app:showAsAction="never" />
+  <item
+      android:id="@+id/github"
+      android:title="@string/menu_github"
+      android:orderInCategory="100"
+      app:showAsAction="never" />
+  <item
+      android:id="@+id/share"
+      android:title="@string/menu_share"
+      android:orderInCategory="100"
+      app:showAsAction="never" />
 </menu>

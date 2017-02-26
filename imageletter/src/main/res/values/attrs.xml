@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="RoundedImageView">
+    <attr name="corner_radius" format="dimension" />
+    <attr name="border_width" format="dimension" />
+    <attr name="border_color" format="color" />
+    <attr name="round_background" format="boolean" />
+    <attr name="is_oval" format="boolean" />
+    <attr name="android:scaleType" />
+  </declare-styleable>
+  <declare-styleable name="MaterialLetterIcon">
+    <attr name="text" format="string" />
+    <attr name="text_color" format="color" />
+    <attr name="shape_color" format="color" />
+    <attr name="text_size" format="integer" />
+    <attr name="text_number" format="integer"/>
+    <attr name="is_uppercase" format="boolean" />
+    <attr name="is_bold" format="boolean" />
+  </declare-styleable>
+  <declare-styleable name="TintableImageView">
+    <attr name="tint" format="reference|color" />
+    <attr name="background_tint" format="reference|color" />
+  </declare-styleable>
+</resources>
