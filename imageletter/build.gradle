@@ -1,11 +1,11 @@
 apply plugin: 'com.android.library'
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.0"
+    compileSdkVersion compilesdk
+    buildToolsVersion buildtool
 
     defaultConfig {
-        minSdkVersion 11
-        targetSdkVersion 25
+        minSdkVersion minsdk
+        targetSdkVersion targetsdk
         versionCode 1
         versionName '1.13'
     }
@@ -26,5 +26,5 @@ configurations{
 }
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile 'com.android.support:appcompat-v7:'+androidlib
 }

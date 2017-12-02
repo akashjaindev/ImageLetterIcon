@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.0"
+    compileSdkVersion compilesdk
+    buildToolsVersion buildtool
 
     defaultConfig {
         applicationId "com.imagelettericon"
-        minSdkVersion 13
-        targetSdkVersion 25
+        minSdkVersion minsdk
+        targetSdkVersion targetsdk
         versionCode 1
         versionName "1.0"
     }
@@ -21,8 +21,8 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support:recyclerview-v7:25.2.0'
-    compile 'com.android.support:design:25.2.0'
-    compile 'com.intuit.sdp:sdp-android:1.0.4'
+    compile 'com.android.support:recyclerview-v7:'+androidlib
+    compile 'com.android.support:design:'+androidlib
+    compile 'com.intuit.sdp:sdp-android:1.0.5'
     compile project(':imageletter')
 }

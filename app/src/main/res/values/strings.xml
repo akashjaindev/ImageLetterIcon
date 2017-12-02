@@ -4,6 +4,8 @@
     <string name="menu_alternate_countries">Show alternate countries</string>
     <string name="menu_contacts">Show contacts</string>
     <string name="menu_alternate_contacts">Show alternate contacts</string>
+    <string name="banner_ad_unit_id">ca-app-pub-5883105630361246/1929299012</string>
+    <string name="interstitial_ad"> ca-app-pub-5883105630361246/4184761412</string>
     <string name="menu_other_apps">Other Apps</string>
     <string name="menu_github">Github</string>
     <string name="menu_play_store">Play store</string>

@@ -160,7 +160,7 @@ public class MainActivity extends AppCompatActivity {
         private int[] mImageResource;
         private int mType;
 
-        public SimpleStringRecyclerViewAdapter(Context context, List<String> items, int type) {
+        SimpleStringRecyclerViewAdapter(Context context, List<String> items, int type) {
             context.getTheme().resolveAttribute(R.attr.selectableItemBackground, mTypedValue, true);
             mMaterialColors = context.getResources().getIntArray(R.array.colors);
             mImageResource = new int[]{R.drawable.one, R.drawable.two, R.drawable.three, R.drawable.four,
