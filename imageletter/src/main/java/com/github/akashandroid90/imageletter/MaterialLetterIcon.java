@@ -23,7 +23,6 @@ public class MaterialLetterIcon extends RoundedImageViewWithBorder {
     private Typeface mTypeface;
     private boolean bold, uppercase;
     private boolean mOval;
-    private Drawable mDrawable;
 
     public MaterialLetterIcon(Context context) {
         this(context, null);
@@ -67,6 +66,7 @@ public class MaterialLetterIcon extends RoundedImageViewWithBorder {
         if (isUppercase())
             iConfigBuilder.toUpperCase();
         mBuilder = iConfigBuilder.endConfig();
+        Drawable mDrawable;
         if (isOval())
             mDrawable = mBuilder.buildRound(mText, mShapeColor);
         else if (getCornerRadius() > 0)

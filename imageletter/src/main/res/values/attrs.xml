@@ -18,7 +18,7 @@
     <attr name="is_bold" format="boolean" />
   </declare-styleable>
   <declare-styleable name="TintableImageView">
-    <attr name="tint" format="reference|color" />
+    <attr name="image_tint" format="reference|color" />
     <attr name="background_tint" format="reference|color" />
   </declare-styleable>
 </resources>
